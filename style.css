@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow: hidden;
+}
+.screen{
+    height: 100%;
+    width: 100%;
+    background-color: #1B4242;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all ease 0.5s;
+    
+}
+.screen h4{
+    color: #9EC8B9;
+    font-family: dragon hunter;
+    font-size: 90px;
+    font-weight: 200;
+    margin-bottom: 7px;
+}
+.screen button{
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 2px;
+    color: #bce2d7 ;
+    cursor: pointer;
+    background-color: #5C8374;
+    transition: all ease 0.5s;
+}
+.screen button:hover{
+    color: #4a5d55;
+    background-color: #76a598;
+}
+
+.screen button:active{
+    scale: 0.95;
+}
+
+.screen h3{
+  
+    color: #9EC8B9;
+    font-family: dragon hunter;
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: 200;
+
+}
+#insects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.insect img{
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid #9EC8B9;
+    height: 100px;
+    width: 90px;
+    transition: all ease 0.5s;
+    
+
+}
+.insect img:hover{
+    background-color: #73837d;
+}
+.insect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.insect h2{
+    margin-top: 5px;
+    color: #bce2d7;
+    font-size: 15px;
+    font-family: gilroy;
+
+}
+
+.insect h2:active{
+    scale: 0.95;
+}
+
+#playground{
+    height: 100%;
+    width: 100%;
+}
+#playground img{
+    height: 60px;
+    position: absolute;
+}
+.timescore{
+    height: 40px;
+    width: 100%;
+    color: #bce2d7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    font-size: 37px;
+    font-family: gilroy;
+    border-bottom: 2px solid #9EC8B9;
+}
+#playground h1{
+    font-size: 80px;
+    color: #9EC8B9;
+    font-family: dragon hunter;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 300;
+    transform: translate(-50%,-50%)
+
+}
